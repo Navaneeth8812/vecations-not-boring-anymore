@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+  background-color: rgb(246, 246, 246);
+  font-size: 1.2rem;
+  font-family: Poppins;
+  min-height: 100vh;
+}
+h1{
+    color: rgb(3, 3, 93);
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: white;
+    height: 7rem;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.9);
+    flex-direction: row;
+
+}
+.sign-in{
+    margin-right: 12px;
+}
+.left-head {
+    gap: 3rem;
+}
+.input-bar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 8rem;
+}
+.search-bar{
+    height: 2.9rem;
+    padding: 1rem;
+    width: 35rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(133, 133, 133);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    margin-left: 1rem
+}
+.search-bar:hover{
+    transform: translateY(-2px);
+}
+.search-btn{
+    background-color: rgb(86, 12, 246);
+    height: 2rem;
+    width: 5rem;
+    margin-left: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+.search-btn:hover{
+    transform: translateY(-2px);
+}
+hr{
+    margin-top: 2.3rem;
+}
+main{
+    background-color: rgb(242, 242, 242);
+    min-height: 100vh;
+   
+    padding: 1rem;
+}
+footer{
+     background-color: gray;
+}
+.sub-contents{
+    gap: 3rem;
+    width: 10rem;
+    display: flex;
+}
+.sub-contents button{
+    background-color: rgb(247, 247, 247);
+    width: 10rem;
+    margin-top: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    gap: 2rem;
+}
+.sub-contents button:hover{
+    transform: translateY(-2px);
+}
+.top-bar{
+    border: none;
+    background-color: transparent;
+    font-size: 1.21rem;
+    cursor: pointer;
+    font-weight: 550;
+    width: 100%;
+    min-width: 14rem;
+    height: 2.9rem;
+}
+.my-list{
+    padding: 1.5rem;
+    background-color: rgb(244, 245, 246);
+    font-weight: 550;
+    border-radius: 1.4rem;
+    width: 25rem;
+    margin-top: 2rem;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid lightgray;
+    color: black;
+    transition: transform 0.2s ease;
+    min-height: 3.8rem;
+    display: none;
+}
+.remove{
+    margin-left: 20rem;
+    background-color: rgb(239, 239, 240);
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    transition: transform 0.2s ease;
+}
+.remove:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(251, 97, 97);
+    background-color: rgb(246, 159, 159);
+    transform: translateY(-2px);
+}
+
+
