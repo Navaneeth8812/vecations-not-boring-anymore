@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav-container a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+body{
+    font-family: Inter, 'sans-serif';
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+    display: flex;
+    margin-top: 5rem;
+    min-height: 70vh;
+    align-items: center;
+    flex-direction:column;
+}
+h1{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.icon-link{
+    font-size: 1.3rem;
+}
+.icon-btn{
+    border: none;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: transparent;
+    width: 35px;
+    place-items: center;
+    cursor: pointer;
+    display: grid;
+}
+.icon-btn:hover{
+    background-color: rgb(236, 236, 236);
+}
+.img-btn{
+    border: none;
+    background: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+.img-btn img{
+    height:2.6em;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+}
+.input-bar{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(182, 182, 182);
+    width: 40%;
+    min-width: 28rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    place-items: center;
+    font-size: 1.2rem;
+    margin-top: 1.7rem;
+}
+.input-bar input{
+    border: none;
+    outline: none;
+    align-items: center;
+    width: 70%;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+.input-bar i{
+    gap: 1rem;
+    padding: 1rem;
+}
+.input-bar:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0,0.1);
+}
+.inp-btn{
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.6rem;
+}
+.inp-btn:hover{
+    opacity: 0.4;
+}
+footer{
+    background-color: rgb(245, 245, 245);
+    height: 5rem;
+}
+footer p{
+    padding: 1rem;
+}
+.button-sec{
+    padding: 2rem;
+    display: flex;
+    gap: 1.1rem;
+
+}
+.button-sec button{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.29rem;
+    font-weight: 550;
+    background-color: rgb(249, 249, 249);
+    color: rgb(53, 53, 53);
+    width: 10rem;
+    height: 2.5rem;
+    align-items: center;
+    place-items: center;
+}
+.button-sec button:hover{
+    border: 1px solid rgb(175, 175, 175);
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.down-foot{
+    display: flex;
+}
+.down-foot{
+    cursor: pointer;
+}
+.down-foot a:hover{
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+}
