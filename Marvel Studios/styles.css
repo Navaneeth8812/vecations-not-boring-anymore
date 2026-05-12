@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    padding: 1rem;
+    width: 95.5rem;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    font-weight: 550;
+    align-items: center;
+    color: white;
+}
+.usr-btn {
+    background: none;
+    border: none;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.usr-btn img{
+    width: 1rem;
+}
+.marvel-btn{
+    background: transparent;
+    border: none;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    margin-left: 18rem;
+}
+.marvel-btn img{
+    height: 1rem;
+}
+.unl-btn{
+    border: none;
+    background: transparent;
+    color: white;
+}
+.unl-btn img{
+    width: 3rem;
+    margin: 0
+}

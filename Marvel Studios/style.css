@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "urwdin-semi-condensed-medium", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-weight: 550;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+}
+body{
+    min-height: 400vh;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.sign-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.marvel-btn{
+    align-items: center;
+    place-items: center;
+    background-color: transparent;
+    border: none;
+}
+.marvel-btn img{
+    height: 3rem;
+}
+.unl-btn{
+    border: none;
+    background: transparent;
+    color: white;
+    display: flex;
+    font-weight: 550;
+}
+.unl-btn img{
+    width: 3rem;
+    margin: 0
+}
+.usr-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1rem;
+}
+.usr-btn i{
+    margin-right: 6px;
+}
+.search-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.btm-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+}
+.sld-container{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.sld-container img{
+    height: 50rem;
+}
+.myslide{
+    display: block;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next{
+    right: 0;
+    border-radius: 1rem;
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.text{
+    color: #f2f2f2;
+    font-size: 1.3rem;
+    padding: 2rem;
+    position: absolute;
+    bottom:8px;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.numbertext{
+    color: #f2f2f2;
+    font-size: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+}
+.dot{
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 0.5rem;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+    background-color: #717171;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{
+        opacity: 0.4;
+    }to{
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 300px){
+    .text{
+        font-size: 1rem;
+    }
+}
+.head-container{
+    display: flex;
+    flex-direction: row;
+}
+.super-class{
+    margin: 1rem;
+}
+.char-container{
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    margin: 1rem;
+}
+.super-hero{
+    background-color: white;
+    border: none;
+    padding: 1rem;
+}
+.super-hero img{
+    height: 40rem;
+    display: flex;
+    width: 100%;
+    max-width: 40rem;
+    object-fit: cover;
+}
+.para-container{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
