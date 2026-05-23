@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:linear-gradient(160deg, rgb(33, 69, 187), rgb(1, 1, 35)) ;
+    min-height: 100vh;
+    color: white;
+}
+.games{
+    display: flex;
+    gap: 1rem;
+    border: none;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    width: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 50px;
+    padding-left: 6rem;
+}
+.games:hover{
+    box-shadow: 0px 3px 10px 0px rgba(214, 213, 213, 0.5);
+}
+.item{
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.49rem;
+    transition: transform 0.7s ease;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+.item:hover{
+    transform: translateY(-2px);
+}
+.item p{
+    font-weight: 550;
+    font-size: 1rem;
+}
+img{
+    height: 9rem;
+    border-radius: 0.6rem;
+    transition:transform 0.2s ease;
+}
+img:hover{
+    transform: scale(1.09);
+}
+@media only screen and(max-width:768px){
+    .item{
+        width: calc(50% - 20px);
+    }
+}
+@media only screen and(max-width:480px){
+    .item{
+        width: calc(100% - 20px);
+    }
+} 
+.btn{
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    background:linear-gradient(45deg, rgb(51, 96, 243), rgb(1, 1, 91));
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+}
