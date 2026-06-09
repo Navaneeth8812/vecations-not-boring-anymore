@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter,'sans-serif';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/public/asump1.jpeg);
+    height: 2.6rem;
+}
+.nav-container{
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem;
+    align-items: center;
+    font-weight: 550;
+    color: white;
+}
+.rem-class{
+    display: none;
+    transition: text-decoration 0.2s ease;
+}
+.rem-class:hover{
+    text-decoration: underline;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+.school-btn{
+    background: transparent;
+    border: none;
+    align-items: center;
+    border-radius: 1rem;
+}
+.school-btn img{
+    height: 2.2rem;
+    background: transparent;
+    border-radius: 2rem;
+}
+@media(min-width:590px){
+    .rem-class{
+        display: block;
+    }
+    .first-sec{
+        font-size: 4rem;
+    }
+}
+.bars{
+    background: transparent;
+    border: 1px solid white;
+    border-radius:100%;
+    aspect-ratio: 1/1;
+    height: 2.3rem;
+    color: black;
+    font-size: 1.3rem;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+.bars:hover{
+    background-color: white;
+}
+.apply-btn{
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(45deg, rgb(60, 60, 242), rgb(7, 161, 212));
+    color: white;
+    cursor: pointer;
+    font-weight: 550;
+    transition:  background 0.2s ease;
+}
+.apply-btn:hover{
+    background: white;
+    color: black;
+    outline: 2px solid rgb(49, 49, 186);
+}
+main{
+    min-height: 200vh;
+}
+.logo{
+    height: 9vw;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first-sec{
+    top: 90px;
+    left: 10%;
+    right: 70%;
+    position: absolute;
+    font-weight: 800;
+    color: white;
+    font-size: 7vw;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
+.foundation{
+    float: right;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3vw;
+    font-weight: 550;
+}
+.foundation img{
+    height: 30vw;
+    max-width: 100%;
+}
+.main-sec{
+    padding: 2rem;
+    font-size: 1.9vw;
+    line-height: 1.4em;
+    margin-top: 2vw;
+    right: 100%;
+    float: left;
+}
+.main-sec h2{
+    margin-bottom: 1rem;
+}
+.know-btn{
+    padding: 0.5vw 0.9vw;
+    color: white;
+    font-weight: 550;
+    border: none;
+    background: linear-gradient(45deg, rgb(60, 60, 242), rgb(7, 161, 212));
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    transition: background 0.2s ease;
+}
+.know-btn:hover{
+    color: white;
+    background: linear-gradient(45deg, rgb(117, 117, 243), rgb(36, 189, 240));
+}
+.gal-sec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+.gal-head{
+    margin-top: 3rem;
+    margin-left: 35px;
+    font-size: 2.5vw;
+    font-weight: 650;
+}
+.gal{
+    border: none;
+    background-color: transparent;
+    transition: transform 0.2s ease;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+      box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.gal img{
+    height: 9rem;
+    transition: transform 0.2s ease;
+}
+.gal img:hover{
+    transform: scale(1.1);
+}
+.text{
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+}
+.mgt-sec{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg,rgb(116, 116, 242),rgb(140, 187, 245));
+    padding: 1rem;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.head-class{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.head-class img{
+    height: 17rem;
+    border-radius: 1rem;
+    transition: transform 0.2s ease;
+}
+.head-class img:hover{
+    transform: scale(1.1);
+}
+.sep{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.new-text{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.admin-sec{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.3rem;
+}
+    footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(247, 247, 247);
+    margin-top: 9rem;
+    width: 100%;
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.foot a{
+    color: inherit;
+    text-decoration: none;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.foot-icon img{
+    height: 9vw;
+    border-radius: 100%;
+}
