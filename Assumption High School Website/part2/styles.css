@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter, 'sans-serif';
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    flex-direction: column;
+}
+.head-btn{
+    padding:0.8rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(39, 39, 39);
+    background-color: white;
+    font-weight: 550;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.head-btn:hover{
+    transform: translateY(2px);
+}
+a .head-btn:hover{
+    opacity: 0.6;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.head-p{
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.about{
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+.main-content{
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+.main-content h1{
+    margin: 1rem;
+}
+.main-content h3{
+    margin: 0.5rem;
+}
+.school-img img{
+    height: 45vw;
+    float: right;
+    max-width: 100%;
+    border-radius: 0.27rem;
+}
+.know-btn{
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: black;
+    color: white;
+    transition: background 0.2s ease;
+    font-weight: 550;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.know-btn a{
+    color: inherit;
+    text-decoration: none;
+}
+.know-btn:hover{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+.mission{
+    text-align: center;
+    justify-content: center;
+
+}
+.school-logo {
+    height: 9rem;
+}
+.std{
+    height: 8rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(247, 247, 247);
+    margin-top: 9rem;
+    width: 100%;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.foot a{
+    color: inherit;
+    text-decoration: none;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.statistics{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+.btn{
+    background: transparent;
+    border: none;
+}
+.st-btn{
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    transition:transform 0.2s ease;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 0.3rem;
+}
+.st-btn:hover{
+    transform: translateY(2px);
+}
+.st-btn i{
+    float: left;
+}
+@media(max-width:740px){
+    .statistics{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+.fac{
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: black;
+    color: white;
+    transition: background 0.2s ease;
+    font-weight: 550;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.fac a{
+    color: inherit;
+    text-decoration: none;
+}
+.fac:hover{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+.facility{
+    font-weight: 550;
+}
+.galary{
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: black;
+    color: white;
+    transition: background 0.2s ease;
+    font-weight: 550;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.galary a{
+    text-decoration: none;
+    color: inherit;
+}
+.galary:hover{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+.back-btn{
+    display: flex;
+    align-items: start;
+    float: left;
+    padding: 0.3rem 1rem;
+}
+.soc-icons{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+}
+.sc-btn{
+    padding: 1rem;
+    border-radius: 100%;
+    border: 1px solid rgb(146, 146, 146);
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-size: 1.1rem;
+}
+.sc-btn:hover{
+    background: black;
+    color: white;
+    border: 1px solid transparent;
+}

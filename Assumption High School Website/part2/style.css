@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.class-img{
+    float: right;
+    display: flex;
+}
+h2{
+    margin-top: 2rem;
+}
+.class-img img{
+    height: auto;
+    width: 70vw;
+    border-radius: 0.5rem;
+}
+.lab{
+    background: linear-gradient(85deg, rgb(2, 2, 212),rgba(255, 7, 7, 0.965));
+    border: none;
+    border-radius: 0.2rem;
+}
+.lab:hover{
+    background: linear-gradient(45deg, rgb(2, 2, 212),rgba(255, 7, 7, 0.965));
+    border: none;
+    color: white;
+}
+.nav-container{
+    text-align: left;
+}
+@media(min-width:690px){
+     p{
+    padding-left: 6rem;
+    padding-right: 6rem;
+} 
+}
+.fac{
+    position: sticky;
+    display: flex;
+}
